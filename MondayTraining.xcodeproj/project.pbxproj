@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1531962B7640AF00B2C21E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1531952B7640AF00B2C21E /* SplashView.swift */; };
+		0C1531992B7643E400B2C21E /* logo_serlima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C1531982B7643E400B2C21E /* logo_serlima.jpg */; };
 		0C9FD0552B6A8C9A000D06C0 /* MondayTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0542B6A8C9A000D06C0 /* MondayTrainingApp.swift */; };
-		0C9FD0572B6A8C9A000D06C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0562B6A8C9A000D06C0 /* ContentView.swift */; };
+		0C9FD0572B6A8C9A000D06C0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0562B6A8C9A000D06C0 /* MenuView.swift */; };
 		0C9FD0592B6A8C9C000D06C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FD0582B6A8C9C000D06C0 /* Assets.xcassets */; };
 		0C9FD05C2B6A8C9C000D06C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FD05B2B6A8C9C000D06C0 /* Preview Assets.xcassets */; };
+		0C9FD0632B6BE03E000D06C0 /* TSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0622B6BE03E000D06C0 /* TSSView.swift */; };
+		0C9FD0652B6BE6D9000D06C0 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0642B6BE6D8000D06C0 /* MenuButtonView.swift */; };
+		0C9FD0672B72BF5C000D06C0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0662B72BF5C000D06C0 /* Util.swift */; };
+		0C9FD0692B72C84F000D06C0 /* TrainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0682B72C84F000D06C0 /* TrainCalculator.swift */; };
+		0C9FD06B2B72C949000D06C0 /* MondayTrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD06A2B72C949000D06C0 /* MondayTrainingType.swift */; };
+		0C9FD06D2B72D74E000D06C0 /* ValueError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD06C2B72D74E000D06C0 /* ValueError.swift */; };
+		0C9FD06F2B73B10E000D06C0 /* HrTSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD06E2B73B10E000D06C0 /* HrTSSView.swift */; };
+		0C9FD0712B73B1F5000D06C0 /* PSEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0702B73B1F5000D06C0 /* PSEView.swift */; };
+		0C9FD0732B74F41F000D06C0 /* AvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0722B74F41F000D06C0 /* AvailabilityView.swift */; };
+		0C9FD0792B750414000D06C0 /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0782B750414000D06C0 /* WeekDay.swift */; };
+		0C9FD07E2B750C56000D06C0 /* edmondsans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FD07B2B750C55000D06C0 /* edmondsans_medium.ttf */; };
+		0C9FD07F2B750C56000D06C0 /* edmondsans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FD07C2B750C56000D06C0 /* edmondsans_bold.ttf */; };
+		0C9FD0802B750C56000D06C0 /* edmondsans_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FD07D2B750C56000D06C0 /* edmondsans_regular.ttf */; };
+		0C9FD0832B752AE1000D06C0 /* AvailabilityWeekDayComponentIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0822B752AE1000D06C0 /* AvailabilityWeekDayComponentIView.swift */; };
+		0C9FD0852B7536AF000D06C0 /* AvailabilityActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FD0842B7536AF000D06C0 /* AvailabilityActivitiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1531952B7640AF00B2C21E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0C1531982B7643E400B2C21E /* logo_serlima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_serlima.jpg; sourceTree = "<group>"; };
 		0C9FD0512B6A8C9A000D06C0 /* MondayTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MondayTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9FD0542B6A8C9A000D06C0 /* MondayTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayTrainingApp.swift; sourceTree = "<group>"; };
-		0C9FD0562B6A8C9A000D06C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C9FD0562B6A8C9A000D06C0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0C9FD0582B6A8C9C000D06C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C9FD05B2B6A8C9C000D06C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C9FD0622B6BE03E000D06C0 /* TSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSView.swift; sourceTree = "<group>"; };
+		0C9FD0642B6BE6D8000D06C0 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		0C9FD0662B72BF5C000D06C0 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		0C9FD0682B72C84F000D06C0 /* TrainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCalculator.swift; sourceTree = "<group>"; };
+		0C9FD06A2B72C949000D06C0 /* MondayTrainingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayTrainingType.swift; sourceTree = "<group>"; };
+		0C9FD06C2B72D74E000D06C0 /* ValueError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueError.swift; sourceTree = "<group>"; };
+		0C9FD06E2B73B10E000D06C0 /* HrTSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HrTSSView.swift; sourceTree = "<group>"; };
+		0C9FD0702B73B1F5000D06C0 /* PSEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSEView.swift; sourceTree = "<group>"; };
+		0C9FD0722B74F41F000D06C0 /* AvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityView.swift; sourceTree = "<group>"; };
+		0C9FD0782B750414000D06C0 /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		0C9FD07B2B750C55000D06C0 /* edmondsans_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edmondsans_medium.ttf; sourceTree = "<group>"; };
+		0C9FD07C2B750C56000D06C0 /* edmondsans_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edmondsans_bold.ttf; sourceTree = "<group>"; };
+		0C9FD07D2B750C56000D06C0 /* edmondsans_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = edmondsans_regular.ttf; path = MondayTraining/Fonts/edmondsans_regular.ttf; sourceTree = SOURCE_ROOT; };
+		0C9FD0812B750CBF000D06C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MondayTraining/Info.plist; sourceTree = SOURCE_ROOT; };
+		0C9FD0822B752AE1000D06C0 /* AvailabilityWeekDayComponentIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityWeekDayComponentIView.swift; sourceTree = "<group>"; };
+		0C9FD0842B7536AF000D06C0 /* AvailabilityActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityActivitiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1531972B7643B800B2C21E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C1531982B7643E400B2C21E /* logo_serlima.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		0C9FD0482B6A8C9A000D06C0 = {
 			isa = PBXGroup;
 			children = (
@@ -39,6 +82,7 @@
 				0C9FD0522B6A8C9A000D06C0 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		0C9FD0522B6A8C9A000D06C0 /* Products */ = {
 			isa = PBXGroup;
@@ -51,10 +95,16 @@
 		0C9FD0532B6A8C9A000D06C0 /* MondayTraining */ = {
 			isa = PBXGroup;
 			children = (
+				0C1531972B7643B800B2C21E /* Images */,
+				0C9FD0812B750CBF000D06C0 /* Info.plist */,
+				0C9FD07A2B750C2B000D06C0 /* Fonts */,
 				0C9FD0542B6A8C9A000D06C0 /* MondayTrainingApp.swift */,
-				0C9FD0562B6A8C9A000D06C0 /* ContentView.swift */,
 				0C9FD0582B6A8C9C000D06C0 /* Assets.xcassets */,
+				0C9FD0772B74FE57000D06C0 /* Errors */,
+				0C9FD0752B74FE2E000D06C0 /* Models */,
 				0C9FD05A2B6A8C9C000D06C0 /* Preview Content */,
+				0C9FD0762B74FE45000D06C0 /* Utils */,
+				0C9FD0742B74FDEB000D06C0 /* Views */,
 			);
 			path = MondayTraining;
 			sourceTree = "<group>";
@@ -65,6 +115,58 @@
 				0C9FD05B2B6A8C9C000D06C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C9FD0742B74FDEB000D06C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FD0842B7536AF000D06C0 /* AvailabilityActivitiesView.swift */,
+				0C9FD0722B74F41F000D06C0 /* AvailabilityView.swift */,
+				0C9FD0822B752AE1000D06C0 /* AvailabilityWeekDayComponentIView.swift */,
+				0C9FD06E2B73B10E000D06C0 /* HrTSSView.swift */,
+				0C9FD0642B6BE6D8000D06C0 /* MenuButtonView.swift */,
+				0C9FD0562B6A8C9A000D06C0 /* MenuView.swift */,
+				0C9FD0702B73B1F5000D06C0 /* PSEView.swift */,
+				0C9FD0622B6BE03E000D06C0 /* TSSView.swift */,
+				0C1531952B7640AF00B2C21E /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C9FD0752B74FE2E000D06C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FD06A2B72C949000D06C0 /* MondayTrainingType.swift */,
+				0C9FD0782B750414000D06C0 /* WeekDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C9FD0762B74FE45000D06C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FD0682B72C84F000D06C0 /* TrainCalculator.swift */,
+				0C9FD0662B72BF5C000D06C0 /* Util.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0C9FD0772B74FE57000D06C0 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FD06C2B72D74E000D06C0 /* ValueError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0C9FD07A2B750C2B000D06C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FD07C2B750C56000D06C0 /* edmondsans_bold.ttf */,
+				0C9FD07B2B750C55000D06C0 /* edmondsans_medium.ttf */,
+				0C9FD07D2B750C56000D06C0 /* edmondsans_regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +229,10 @@
 			files = (
 				0C9FD05C2B6A8C9C000D06C0 /* Preview Assets.xcassets in Resources */,
 				0C9FD0592B6A8C9C000D06C0 /* Assets.xcassets in Resources */,
+				0C9FD0802B750C56000D06C0 /* edmondsans_regular.ttf in Resources */,
+				0C1531992B7643E400B2C21E /* logo_serlima.jpg in Resources */,
+				0C9FD07E2B750C56000D06C0 /* edmondsans_medium.ttf in Resources */,
+				0C9FD07F2B750C56000D06C0 /* edmondsans_bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +243,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9FD0572B6A8C9A000D06C0 /* ContentView.swift in Sources */,
+				0C9FD0852B7536AF000D06C0 /* AvailabilityActivitiesView.swift in Sources */,
+				0C9FD0692B72C84F000D06C0 /* TrainCalculator.swift in Sources */,
+				0C1531962B7640AF00B2C21E /* SplashView.swift in Sources */,
+				0C9FD0572B6A8C9A000D06C0 /* MenuView.swift in Sources */,
+				0C9FD0732B74F41F000D06C0 /* AvailabilityView.swift in Sources */,
+				0C9FD06F2B73B10E000D06C0 /* HrTSSView.swift in Sources */,
+				0C9FD0712B73B1F5000D06C0 /* PSEView.swift in Sources */,
+				0C9FD06D2B72D74E000D06C0 /* ValueError.swift in Sources */,
+				0C9FD0792B750414000D06C0 /* WeekDay.swift in Sources */,
 				0C9FD0552B6A8C9A000D06C0 /* MondayTrainingApp.swift in Sources */,
+				0C9FD0672B72BF5C000D06C0 /* Util.swift in Sources */,
+				0C9FD0632B6BE03E000D06C0 /* TSSView.swift in Sources */,
+				0C9FD0652B6BE6D9000D06C0 /* MenuButtonView.swift in Sources */,
+				0C9FD0832B752AE1000D06C0 /* AvailabilityWeekDayComponentIView.swift in Sources */,
+				0C9FD06B2B72C949000D06C0 /* MondayTrainingType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,18 +381,22 @@
 		0C9FD0602B6A8C9C000D06C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "serlima AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MondayTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = M8238L3LL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MondayTraining/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,18 +413,22 @@
 		0C9FD0612B6A8C9C000D06C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "serlima AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MondayTraining/Preview Content\"";
+				DEVELOPMENT_TEAM = M8238L3LL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MondayTraining/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
