@@ -13,6 +13,7 @@ struct TSSView: View {
     @State var mondayTrainingText = ""
     @State var mondayTraining = MondayTrainingType.z1
     @State private var isValuesReady = true
+    @FocusState private var isFirstResponder :Bool
     
     var body: some View {
         NavigationStack{
@@ -26,7 +27,9 @@ struct TSSView: View {
                         .keyboardType(.numberPad)
                     Text("\(convertMinutesToTime(time: time))")
                 }
+                .focused($isFirstResponder)
                 .padding()
+                
                 
                 VStack {
                     Text("Valor TSS")
@@ -36,6 +39,7 @@ struct TSSView: View {
                         .multilineTextAlignment(.center)
                         .keyboardType(.numberPad)
                 }
+                .focused($isFirstResponder)
                 .padding()
                 
                 HStack{
@@ -83,6 +87,10 @@ struct TSSView: View {
                 Spacer()
             }
             
+            
+        }
+        .onTapGesture {
+            isFirstResponder = false
         }
         .font(Font.custom("edmondsans_regular", size: 25))
     }

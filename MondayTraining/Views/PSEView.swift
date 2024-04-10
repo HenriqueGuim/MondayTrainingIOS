@@ -12,6 +12,8 @@ struct PSEView: View {
     @State var time = 0
     @State var mondayTrainingText = ""
     @State var mondayTraining = MondayTrainingType.z1
+    @FocusState private var isFirstResponder :Bool
+
     var body: some View {
         VStack{
             VStack {
@@ -23,6 +25,7 @@ struct PSEView: View {
                     .keyboardType(.numberPad)
                 Text("\(convertMinutesToTime(time: time))")
             }
+            .focused($isFirstResponder)
             .padding()
             
             VStack {
@@ -33,6 +36,7 @@ struct PSEView: View {
                     .multilineTextAlignment(.center)
                     .keyboardType(.numberPad)
             }
+            .focused($isFirstResponder)
             .padding()
             
             HStack{
@@ -79,6 +83,9 @@ struct PSEView: View {
             Text(mondayTrainingText)
             
             Spacer()
+        }
+        .onTapGesture {
+            isFirstResponder = false
         }
         .font(Font.custom("edmondsans_regular", size: 25))
     }

@@ -19,6 +19,7 @@ struct AvailabilityView: View {
     @State var shareMessage: shareText? = shareText(text: "")
     @State var isToShare = false
     @State var errorMessage = ""
+    @FocusState private var isFirstResponder :Bool
     
     var body: some View {
         VStack{
@@ -29,6 +30,7 @@ struct AvailabilityView: View {
             
             ForEach($weekDays) { $day in
                 AvailabilityWeekDayComponentIView(weekDay: $day)
+                    .focused($isFirstResponder)
             }
             
             Text(errorMessage)
@@ -47,6 +49,9 @@ struct AvailabilityView: View {
                 
             }
 
+        }
+        .onTapGesture {
+            isFirstResponder = false
         }
         .padding()
         .sheet(isPresented: Binding<Bool>(

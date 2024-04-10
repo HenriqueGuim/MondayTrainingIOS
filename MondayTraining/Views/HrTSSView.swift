@@ -12,6 +12,8 @@ struct HrTSSView: View {
     @State var time = 0
     @State var mondayTraining = MondayTrainingType.z1
     @State var mondayTrainingText = ""
+    @FocusState private var isFirstResponder :Bool
+
     var body: some View {
         VStack{
             VStack {
@@ -23,6 +25,7 @@ struct HrTSSView: View {
                     .keyboardType(.numberPad)
                 Text("\(convertMinutesToTime(time: time))")
             }
+            .focused($isFirstResponder)
             .padding()
             
             VStack {
@@ -33,6 +36,7 @@ struct HrTSSView: View {
                     .multilineTextAlignment(.center)
                     .keyboardType(.numberPad)
             }
+            .focused($isFirstResponder)
             .padding()
             
             HStack{
@@ -78,6 +82,9 @@ struct HrTSSView: View {
             Text(mondayTrainingText)
             
             Spacer()
+        }
+        .onTapGesture {
+            isFirstResponder = false
         }
         .font(Font.custom("edmondsans_regular", size: 25))
     }
